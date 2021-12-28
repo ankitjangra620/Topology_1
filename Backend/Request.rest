@@ -1,0 +1,39 @@
+GET http://localhost:3001
+
+###
+
+POST http://localhost:3001/otp
+Content-Type: application/json
+
+{
+      "email":"ankitjangra620@gmail.com"
+}
+
+
+###
+POST http://localhost:3001/register
+Content-Type: application/json
+
+{
+      "username":"Ankit Jangra",
+      "email":"ankitjangr0@gmail.com",
+      "password":"A#nkit#123"
+}
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+      "email":"ankitjangra6220@gmail.com",
+      "password":"A#nkit#123"
+}
+
+###
+GET http://localhost:3001/logout
+Content-Type: application/json
+
+{
+     "set-cookie": "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWM4OWM1MjZkZWM3MzE1ZGU3NjAzNmQiLCJpYXQiOjE2NDA1NDAyNDB9.FcrS8JC9m0ZBK4RNgQTRPJxN9y0a-JlOokYCl1gtUfY; Path=/; Expires=Mon, 10 Jan 2022 17:37:20 GMT; HttpOnly"
+}

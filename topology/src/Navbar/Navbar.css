@@ -1,0 +1,142 @@
+#root{
+      min-width: 100%;
+      max-width: 100vw;;
+}
+.hamburger{
+      color: white;
+      display: flex;
+      align-items: center;
+      margin-left: 2rem;
+      max-width: 4rem;
+      min-width: 4rem;
+     
+}
+.Navbar{
+      min-width: 100%;
+      z-index: 6;
+      position: fixed;
+}
+#drag svg path{
+      color:red;}
+.hamburger #drag{
+      width:2rem;
+      height:2rem;
+       font-size:2rem;;
+       transition: all .5s ease-in-out;
+}
+.hamburger svg path{
+      color:white;
+}
+
+nav{
+      background-color: #1E1E1E;
+      display: flex;
+      height:5rem;
+      z-index: 4;
+      min-width: 100%;
+}
+#SearchButton{
+      color:black;
+      background-color: #1E1E1E;
+      border:0;
+      box-shadow: rgb(38, 57, 77) 0px 10px 30px -5px;   
+   
+      
+}
+#searchIcon{
+      color:white;
+      cursor:pointer;
+      display: flex;
+      align-items: center;
+      height:1rem;
+}
+.Search{
+      display: flex;
+      align-items: center;
+      margin-left: 20rem;;
+
+}
+
+.avatarName{
+      transition: all 0.2s ease-in-out;
+}
+      .avatarName:hover{
+      transform:scale(1.4);
+      }
+.profile{
+      display: flex;
+      align-items: center;
+      float: right;
+      margin-left: 25rem;
+}
+.brand_name,.nav_Links{
+      display: flex;
+      align-items: center;
+}
+#navLink_home{
+      margin-left: 20rem;;
+}
+.navlink_links{
+      margin-left: 2rem;
+      text-decoration: none;
+}
+#searchInput{
+      height:2rem;
+      width:15rem;
+      font-size: larger;
+      padding-right: 8px;;
+    
+}
+#arrowDown{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color:white;
+}
+
+.dropdownMenu{
+      position: absolute;
+      z-index: 2;
+      max-width: 20rem;
+      float: right;
+      right:0;
+      margin-right:1.5rem;
+      transition:  all .2s ease-in;
+      opacity: 0;
+      visibility: hidden;
+
+}
+
+.dropLink{
+      color:#1E1E1E;
+      text-decoration: none;
+      min-width:10rem;
+      font-size:1.5rem;;
+      font-weight: 400;
+      transition:all .2s ease-in-out;      
+}
+.dropLink:hover{
+      transform:scale(1.2);
+}
+.dropdownMenu button{
+      width:20rem;
+      height:3.5rem;
+  
+      border:0;
+      border-bottom:0.0001rem solid black;
+      transition:all .2s ease-in-out;     
+}
+.dropdownMenu button:hover{
+      z-index: 2;
+      transform: scale(1.1);  
+}
+#ham{
+      transition: all .3s ease-in-out;
+}
+#sideElement{
+      display: none;
+      position: fixed;
+      top:3;
+      transition: all 0.3s ease-out;
+}
+

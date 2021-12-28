@@ -1,0 +1,50 @@
+.login{
+      min-height: 100vh;
+      min-width: 100vw;
+      display: flex;
+      position:fixed;
+      align-items: center;
+      justify-content: center;
+      background-color: #1E1E1E;
+      z-index: -1;
+      
+}
+#EmailInput{
+      border-bottom:3px solid #232F3C;
+      max-width: 25rem;;
+      margin-left: auto;
+      margin-right: auto;
+}
+#PasswordInput{
+      border-bottom:3px solid #232F3C;
+      max-width: 25rem;;
+      margin-left: auto;
+      margin-right: auto;
+}
+#LoginFormButton{
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem;
+}
+#ForgotLink{
+      margin-left: 8rem;
+      margin-top: 1rem;
+}
+#orLogin{
+      color:white;
+      font-size:10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;;
+}
+#SignUpFormButton{
+      display: flex;
+      justify-content: center;
+}
+#passwordLogin{
+      margin-top: 3rem;;
+}
+#forgotButton{
+      color:white;
+      text-decoration: none;
+}

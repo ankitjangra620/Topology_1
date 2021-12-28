@@ -1,0 +1,13 @@
+.forgot{
+      min-height: 100vh;
+      min-width: 100vw;
+      display: flex;
+      position:fixed;
+      align-items: center;
+      justify-content: center;
+      background-color: #1E1E1E;
+      z-index: -1;
+}
+#registerNot{
+      margin-bottom: 2rem;;
+}

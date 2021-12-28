@@ -1,0 +1,77 @@
+.RegisterBox{
+       min-height: 100vh;
+      min-width: 100vw;
+      display: flex;
+      z-index:-2;
+      position:fixed;
+      align-items: center;
+      justify-content: center;
+      background-color: #1E1E1E;
+      
+}
+#addIcon{
+      border-radius: 100%;
+      height:10rem;
+      width:10rem;
+      margin-left:15rem;
+      margin-top:2%;
+     opacity: 0;
+     position: absolute;
+     overflow: visible;
+    visibility:hidden;
+     z-index: 1;
+      transition: all 0.5s ease-in-out;
+}
+#avatarImage:hover{
+      background-color: rgba(0, 0, 0, .5);
+}
+
+#avatarImage:hover +#addIcon{
+      z-index: 3;
+      visibility: visible;
+      position: absolute;
+      opacity: 1;
+}    
+#addIcon:hover{
+      z-index: 3;
+      visibility: visible;
+      position: absolute;
+      opacity: 1;
+      background-color: rgba(0, 0, 0, .5);
+}
+.AvatarForm{
+      display: flex;
+      justify-content: center;
+}
+#NameRegister{
+      border-bottom:3px solid #232F3C;
+      max-width: 25rem;;
+      margin-left: auto;
+      margin-right: auto;
+}
+#OtpRegister{
+      border-bottom:3px solid #232F3C;
+      max-width: 25rem;;
+      margin-left: auto;
+      margin-right: auto;
+}
+.otpLink button{
+      color:white;
+      background-color: #1E1E1E;
+      border : 0px solid black;     
+      cursor: pointer;
+}
+#registerNot{
+      height:0px;
+      transition: height 0.3s linear;
+}
+#registerNotification{
+      transition: opacity 0.5s linear;
+      opacity:0;
+}
+#PasswordInput p{
+      color: white;;
+}
+.linkLink{
+      text-decoration: none;
+}

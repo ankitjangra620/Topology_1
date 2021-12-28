@@ -1,0 +1,57 @@
+.sidebar{
+      height: 100vh;
+      position:relative;
+      z-index: 3;
+      display: flex;    
+      max-width: 25rem;;
+      min-width: 25rem;
+      background-color:#1E1E1E;
+      box-shadow: rgba(136, 165, 191, 0.90) 4px 2px 4px 0px, rgba(255, 255, 255, 0.8) -0px -0px 0px 0px;
+}
+.SearchSidebar{
+      display: block;
+}
+.sideForm{
+      height:5rem;
+      border-bottom: 1px solid black;
+}
+.SearchSidebar Form{
+      display: flex;
+      align-items: center;
+      margin-left: 3rem;
+}
+#SearchButton{
+      display: flex;
+      align-items: center;
+}
+.sideNavLink{
+      display: block;
+      height:4rem;
+      text-decoration: none;;
+      font-size: 1.5rem;
+}
+.sideLink{
+      min-width: 25rem;
+      display: flex;
+     justify-content: center;
+}
+.sideLinks{
+      
+      align-items: center;
+      margin-top: 2rem;
+
+}
+.sideCenter{
+      display: flex;
+      align-items: center;
+}
+.sideProfile{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.sideProfile #sideProfileTitle{
+      font-family: 'Sacramento', cursive;
+      font-weight: 100;
+      font-size: 2rem;
+}

@@ -1,0 +1,62 @@
+#blogsFrame{
+      background-color: #1E1E1E;
+      min-width: 100%;
+      min-height: 100vh;
+      position: absolute;
+      padding-top: 3rem;
+      z-index: -1;
+   
+
+}
+#blogBox{
+      resize: vertical;
+      scroll-margin: 50px 0 0 50px;
+}
+
+#blogBox::-webkit-scrollbar {
+      width: 0.5rem;
+      height: 15px;
+      
+    
+    }
+    
+    /* Track */
+    #blogBox::-webkit-scrollbar-track {
+      margin-top: 4rem;;
+      margin-bottom: 4rem;;
+      border-radius: 3rem;
+      
+      
+    }
+     
+    /* Handle */
+    #blogBox::-webkit-scrollbar-thumb {
+      background: #383838;
+      border-radius: 3rem;
+     
+    }
+    
+    /* Handle on hover */
+    #blogBox::-webkit-scrollbar-thumb:hover {
+      background: #232E3A; 
+    }
+
+#userBlogs2{
+      display: flex;
+      justify-content: end;
+      border-bottom: 1px solid white;
+      padding-bottom: 0.5rem;;
+
+      
+}
+#blogTitle{
+      top:0;
+      position:sticky;
+      padding-top:0.7rem;
+      padding-bottom:0.7rem;
+      background-color:#141414;
+}
+.userBlogs{
+      margin-left:3rem;
+      margin-right:3rem;
+}
